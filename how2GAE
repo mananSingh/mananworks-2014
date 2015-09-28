@@ -1,0 +1,32 @@
+Google App Engine
+
+Installing on Linux
+
+To install on Linux:
+
+    Unzip the App Engine SDK file you downloaded (google_appengine_1.9.5.zip), for example:
+
+    	unzip google_appengine_1.9.5.zip 
+
+    Make sure Python 2.7 is installed on your machine using the following command:
+
+      	/usr/bin/env python -V
+
+    The output should look like this: Python 2.7.<number>. If Python 2.7 isn't installed, install it now using the installation instructions for your Linux distribution.
+
+Running Hello world
+
+	python google_appengine/dev_appserver.py helloworld/
+
+running on localhost:8080 -default
+
+To update a website in the folder "mananworks"
+
+example:from the folder which contains both the folders: "google_appengine" and "SITES/mananworks"
+
+	python google_appengine/appcfg.py update SITES/mananworks
+
+That's it. (it will ask gmail authentication)
+
+	
+

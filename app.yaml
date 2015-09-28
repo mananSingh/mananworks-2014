@@ -1,0 +1,26 @@
+application: mananworks
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+
+- url: /static
+  static_dir: static
+
+#root
+- url: /.*
+  static_files: manan.html
+  upload: manan.html
+
+#server you home page in case index.html is requested
+- url: /index.html
+  static_files: manan.html
+  upload: manan.html
+
+error_handlers:
+- file: error.html
+
+- error_code: over_quota
+  file: overQuota.html
