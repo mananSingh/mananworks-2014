@@ -1,7 +1,7 @@
 # mananworks-2014
 First Minimal Portfolio Website
 
-**website link**: [www.mananworks.appspot.com](www.mananworks.appspot.com)
+**website link**: [www.mananworks.appspot.com](http://www.mananworks.appspot.com)
 
 For more details: [blog](http://mananworks.blogspot.in/2014/06/mananworksappspotcom.html)
 
